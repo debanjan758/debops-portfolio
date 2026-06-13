@@ -1,16 +1,34 @@
-# React + Vite
+# DebOps Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website documenting my journey into DevOps and software engineering.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React
+* Vite
+* Git & GitHub
 
-## React Compiler
+## 🎯 Goal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To build a production-grade portfolio website while learning:
 
-## Expanding the ESLint configuration
+* Docker
+* CI/CD
+* AWS
+* Monitoring
+* Kubernetes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Current Progress
+
+* [x] Project setup using Vite
+* [x] GitHub repository setup
+* [ ] Portfolio UI development
+* [ ] Dockerization
+* [ ] CI/CD pipeline
+* [ ] Cloud deployment
+* [ ] Monitoring setup
+* [ ] Kubernetes migration
+
+## 📚 Learning Philosophy
+
+> Learn → Build → Break → Fix → Document → Repeat
