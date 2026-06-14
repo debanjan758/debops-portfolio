@@ -75,3 +75,22 @@ section p {
 .skill-card h3 {
   color: #38bdf8;
 }
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: left;
+}
+
+.project-card h3 {
+  color: #38bdf8;
+}
