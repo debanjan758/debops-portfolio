@@ -3,12 +3,31 @@ import "./index.css";
 function App() {
   return (
     <>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </nav>
+
     <div className="hero">
       <h1>Hi, I'm Debanjan Sen 👋</h1>
 
       <h2>B.Tech CSE Student | DevOps Enthusiast | Exploring Cloud, CI/CD, and Automation.</h2>
 
-      <h3>GitHub . Linkedin . Email</h3>
+      <div className="Social-links">
+        <a href="https://github.com/debanjan758" target="_blank">
+          GitHub        
+        </a>
+
+        <a href="https://linkedin.com/in/debanjansen758" target="_blank">
+          LinkedIn
+        </a>
+
+        <a href="mailto:deanjansen32@gmail.com" target="_blank">
+          Email
+        </a>
+      </div>
 
       <p>
         Passionate about DevOps, cloud technologies, and building production-ready systems.
@@ -104,7 +123,13 @@ function App() {
 
       <div className="projects-container">
         <div className="project-card">
+          <div className="project-buttons">
+            <button>GitHub</button>
+            <button>Live Demo</button>
+          </div>
+
           <h3>DevOps Portfolio website</h3>
+
           <p>
             A professional website documenting my journey into DevOps and software engineering.
           </p>
@@ -112,7 +137,13 @@ function App() {
       </div>
 
         <div className="project-card">
+          <div className="project-buttons">
+            <button>GitHub</button>
+            <button>Live Demo</button>
+          </div>
+
           <h3>Expense Tracker</h3>
+
           <p>
             Web application to track income and expenses with budget alerts and
             visual insights.
@@ -121,7 +152,13 @@ function App() {
         </div>
 
         <div className="project-card">
+          <div className="project-buttons">
+            <button>GitHub</button>
+            <button>Live Demo</button>
+          </div>
+
           <h3>Upcoming DevOps Project</h3>
+
           <p>
             A production-grade project showcasing Docker, CI/CD, AWS, and
             monitoring.
@@ -130,6 +167,13 @@ function App() {
         </div>
       </div>
     </section>
+
+    <footer>
+      <p>
+        © 2026 Debanjan Sen.
+        Built with React and passion for DevOps.
+      </p>
+    </footer>
 
     </>
   );
