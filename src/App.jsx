@@ -21,6 +21,10 @@ function App() {
           <button>About Me</button>
         </a>
 
+        <a href="#skills">
+          <button>Skills</button>
+        </a>
+
         <a href="#projects">
           <button>View Projects</button>
         </a>
@@ -52,6 +56,39 @@ function App() {
           I'm a B.Tech CSE student with a strong interest in DevOps and cloud computing. I enjoy solving real-world problems through technology and continuously challenge myself by building production-ready projects while learning modern development practices.
 
         </p>
+      </section>
+
+      <section
+        id="skills"
+        style={{
+          minHeight: "100vh",
+          padding: "50px",
+          textAlign: "center"
+        }}
+      >
+        <h2>Skills</h2>
+
+        <div className="skill-container">
+          <div className="skill-card">
+            <h3>DevOps</h3>
+            <p>Docker • Kubernetes • GitHub Actions • Linux • Jenkins</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>Programming</h3>
+            <p>Python • JavaScript • Bash</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>Cloud</h3>
+            <p>AWS • Ngnix</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>frontend</h3>
+            <p>React • HTML • CSS</p>
+          </div>
+        </div>
       </section>
 
     {/* Temporary Projects Section */}

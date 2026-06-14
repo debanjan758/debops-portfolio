@@ -57,3 +57,21 @@ section h2 {
 section p {
   color: #d1d5db;
 }
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skil-card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+}
+
+.skill-card h3 {
+  color: #38bdf8;
+}
