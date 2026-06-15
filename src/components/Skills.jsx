@@ -1,35 +1,37 @@
+import SkillCard from "./SkillCard";
+
 function Skills() {
+  const skills = [
+    {
+      title: "DevOps",
+      technologies: "Docker • Kubernetes • GitHub Actions • Linux • Jenkins",
+    },
+    {
+      title: "Programming",
+      technologies: "Python • JavaScript • Bash",
+    },
+    {
+      title: "Cloud",
+      technologies: "AWS • Nginx",
+    },
+    {
+      title: "Frontend",
+      technologies: "React • HTML • CSS",
+    },
+  ];
+
     return (
-        <section
-        id="skills"
-        style={{
-          minHeight: "100vh",
-          padding: "50px",
-          textAlign: "center",
-        }}
-      >
+        <section id="skills">
         <h2>Skills</h2>
 
         <div className="skills-container">
-          <div className="skill-card">
-            <h3>DevOps</h3>
-            <p>Docker • Kubernetes • GitHub Actions • Linux • Jenkins</p>
-          </div>
-
-          <div className="skill-card">
-            <h3>Programming</h3>
-            <p>Python • JavaScript • Bash</p>
-          </div>
-
-          <div className="skill-card">
-            <h3>Cloud</h3>
-            <p>AWS • Nginx</p>
-          </div>
-
-          <div className="skill-card">
-            <h3>Frontend</h3>
-            <p>React • HTML • CSS</p>
-          </div>
+          {skills.map((skill, index) => (
+            <SkillCard
+              key={index}
+              title={skill.title}
+              technologies={skill.technologies}
+            />
+          ))}
         </div>
       </section>
     );
