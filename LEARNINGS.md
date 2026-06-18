@@ -151,3 +151,96 @@ Today I learned how React applications generate UI dynamically using props, arra
 * Learn React state using `useState`.
 * Build interactive UI features.
 * Add filtering and user interactions.
+
+# Day 4 - React State and Interactive UI
+
+## What I Built
+
+* Added project filtering functionality.
+* Implemented category-based filtering (All, DevOps, Web).
+* Added a Dark/Light Theme Toggle.
+* Implemented conditional rendering for project display.
+
+## React Concepts Learned
+
+### useState()
+
+Learned how React stores and updates data using state.
+
+Example:
+
+```jsx
+const [filter, setFilter] = useState("All");
+```
+
+### Event Handling
+
+Handled user interactions using `onClick()`.
+
+Example:
+
+```jsx
+<button onClick={() => setFilter("DevOps")}>
+  DevOps
+</button>
+```
+
+### Conditional Rendering
+
+Displayed different content based on conditions.
+
+Example:
+
+```jsx
+filteredProjects.length > 0
+  ? <Projects />
+  : <p>No projects found.</p>
+```
+
+### Filtering Data
+
+Used the `filter()` method to display projects based on the selected category.
+
+### Theme Toggle
+
+Implemented Dark/Light Mode using React state.
+
+Example:
+
+```jsx
+setDarkMode(!darkMode);
+```
+
+## Benefits
+
+* Made the portfolio interactive.
+* Improved user experience.
+* Learned how state controls UI updates.
+* Understood React's re-rendering behavior.
+
+## Challenges Faced
+
+* Understanding where `useState()` should be used.
+* Learning the difference between state and props.
+* Implementing filtering logic correctly.
+* Understanding conditional rendering syntax.
+
+## Reflection
+
+Today I built my first interactive React features. I learned how state changes trigger automatic UI updates and how React applications respond to user actions in real time.
+
+## Progress
+
+✅ useState
+✅ Event Handling
+✅ Dynamic Project Filtering
+✅ Conditional Rendering
+✅ Theme Toggle
+✅ Interactive UI
+
+## Next Steps
+
+* Learn advanced state management.
+* Improve theme styling.
+* Add animations and UI enhancements.
+* Build more interactive portfolio features.
