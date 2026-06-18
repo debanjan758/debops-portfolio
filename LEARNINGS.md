@@ -80,3 +80,74 @@ Today, I learned how professional React applications are structured using reusab
 - Learn Props.
 - Learn `map()` and dynamic rendering.
 - Create reusable cards for skills and projects.
+
+# Day 3 - React Props and Dynamic Rendering
+
+## What I Built
+
+* Refactored the Skills section using a reusable `SkillCard` component.
+* Refactored the Projects section using a reusable `ProjectCard` component.
+* Replaced repeated JSX code with dynamic rendering using arrays and `map()`.
+
+## React Concepts Learned
+
+### Props
+
+Used props to pass data from parent components to child components.
+
+Example:
+
+```jsx
+<SkillCard
+  title="DevOps"
+  technologies="Docker • Kubernetes • Linux"
+/>
+```
+
+### Arrays
+
+Stored skills and project information in arrays instead of hardcoding UI elements.
+
+### map()
+
+Used `map()` to dynamically render components from data arrays.
+
+Example:
+
+```jsx
+skills.map((skill) => (
+  <SkillCard />
+))
+```
+
+## Benefits
+
+* Reduced repetitive code.
+* Improved code reusability.
+* Made components easier to maintain and scale.
+* Followed professional React development practices.
+
+## Challenges Faced
+
+* Understanding how props pass data between components.
+* Learning how `map()` generates multiple components.
+* Fixing import/export and object property errors.
+
+## Reflection
+
+Today I learned how React applications generate UI dynamically using props, arrays, and `map()`. This helped me write cleaner, more maintainable code and understand how professional React applications are structured.
+
+## Progress
+
+✅ Props
+✅ Arrays
+✅ map()
+✅ SkillCard Component
+✅ ProjectCard Component
+✅ Dynamic Rendering
+
+## Next Steps
+
+* Learn React state using `useState`.
+* Build interactive UI features.
+* Add filtering and user interactions.
