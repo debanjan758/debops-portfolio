@@ -244,3 +244,90 @@ Today I built my first interactive React features. I learned how state changes t
 * Improve theme styling.
 * Add animations and UI enhancements.
 * Build more interactive portfolio features.
+
+# Day 5 - Interactive Portfolio Features
+
+## What I Built
+
+* Added functional GitHub and Live Demo buttons to project cards.
+* Passed project links as props to reusable components.
+* Implemented active filter highlighting.
+* Improved the interactivity of the Projects section.
+
+## React Concepts Learned
+
+### Advanced Props
+
+Passed additional data such as GitHub and Live Demo links from the parent component to child components.
+
+Example:
+
+```jsx
+<ProjectCard
+  title={project.title}
+  github={project.github}
+  live={project.live}
+/>
+```
+
+### Conditional Rendering
+
+Displayed buttons only when links were available.
+
+Example:
+
+```jsx
+{github && (
+  <a href={github}>
+    <button>GitHub</button>
+  </a>
+)}
+```
+
+### Dynamic CSS Classes
+
+Used state to apply different CSS classes.
+
+Example:
+
+```jsx
+className={
+  filter === "DevOps"
+    ? "active-filter"
+    : ""
+}
+```
+
+## Benefits
+
+* Made project cards more realistic.
+* Improved user experience.
+* Reduced unnecessary UI elements.
+* Learned how React can dynamically change styles.
+
+## Challenges Faced
+
+* Understanding where props should be passed.
+* Fixing `href` attribute mistakes.
+* Learning conditional rendering with logical operators.
+* Understanding dynamic class names.
+
+## Reflection
+
+Today I improved the professionalism of my portfolio by making project cards interactive. I learned how state can control styling and how React conditionally renders UI elements.
+
+## Progress
+
+✅ GitHub Links
+✅ Live Demo Links
+✅ Conditional Rendering
+✅ Dynamic Classes
+✅ Active Filter Buttons
+✅ Improved Project Cards
+
+## Next Steps
+
+* Learn React Router.
+* Create multiple pages.
+* Build detailed project pages.
+* Improve portfolio navigation.
